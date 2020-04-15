@@ -1,4 +1,36 @@
 .App {
   text-align: center;
 }
+#gift{
 
+  width:780px;
+  height:600px;
+  float: right;
+  position: relative;
+  
+  left:480px;
+
+   
+}
+
+input{
+  -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+  position: absolute;
+  bottom:450px;  
+  left:5px;
+  width:20em;
+  height:40px;
+  font-weight: bold;
+
+}
+
+
+#giftdiv{
+
+
+  position: absolute;
+  bottom:20px;  
+  left:50px;
+}
