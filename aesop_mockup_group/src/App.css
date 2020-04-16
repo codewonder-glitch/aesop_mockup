@@ -7,3 +7,23 @@
   background-color: black;
   color: white;
 }
+
+.div2{
+  background-color: white;
+  display: flex;
+ 
+  flex-direction: row;
+
+  max-width:100%;}
+
+  .images2{
+    background-color: white;
+    display: flex;
+   
+    flex-direction: row;
+  
+    max-width:100%;}
+  /* align-items: center; */
+    /* flex-wrap: wrap; */
+     /* justify-content: flex-start;  */
+/* } */
