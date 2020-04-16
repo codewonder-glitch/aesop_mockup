@@ -2,3 +2,8 @@
   text-align: center;
 }
 
+.heading{
+  height: 20px;
+  background-color: black;
+  color: white;
+}
