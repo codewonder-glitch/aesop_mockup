@@ -9,7 +9,9 @@ export default class Page1 extends Component {
         return (
             <React.Fragment>
             <div className="heading">
-               <h6>Complimentary standard shipping on all orders  +</h6>
+              <a href="#" alt="link to ">
+              <h6>Complimentary standard shipping on all orders  +</h6>
+              </a> 
             </div>
             <div>
               <img className="imageBanner" src={homePage}  alt="Home Page" height="500px"/>
