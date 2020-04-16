@@ -1,19 +1,21 @@
 .App {
   text-align: center;
+  /* overflow-x: hidden; */
+  /* position: absolute; */
 }
-#gift{
+#giftimg{
 
   width:780px;
   height:600px;
   float: right;
   position: relative;
   
-  left:480px;
+  left:430px;
 
    
 }
 
-input{
+.topbtn{
   -moz-appearance: none;
  -webkit-appearance: none;
  appearance: none;
@@ -33,4 +35,44 @@ input{
   position: absolute;
   bottom:20px;  
   left:50px;
+}
+.link{
+
+  
+}
+.linkimg{
+
+  width:450px;
+  height:300px;
+}
+
+#container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  display: -webkit-flex; 
+  position:absolute;
+  bottom:-550px;
+  max-width: 450px;
+}
+
+.btnright{
+  color:white;
+  background-color: black;
+  position: absolute;
+ right:-990px;
+ /* right:0px; */
+ width:80px;
+ height:80px;
+ bottom:130px;
+}
+.btnleft{
+  color:white;
+  background-color: black;
+  position: absolute;
+  left:0px;
+  width:80px;
+ height:80px;
+ bottom:130px;
 }
