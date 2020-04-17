@@ -30,12 +30,16 @@
 
 }
 .p3 {
-    top: 5px;
-    margin-left: 600px;
-    
+    position: absolute;
+    top:0;
+    right: 0;
     font-size: xx-small;
-    text-align-last: center;
+    /*margin-left: 600px;
+    
+    
+    text-align-last: center;*/
 }
 .b1 {
+    margin-top: 2px;
     margin-left: 700px;
 }
