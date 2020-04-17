@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 
 .App {
   text-align: center;
+=======
+/* <<<<<<< HEAD
+=======
+.App { */
+  /* text-align: center; */
+>>>>>>> origin
   /* overflow-x: hidden; */
   /* position: absolute; */
-}
-#giftimg{
+/* } */
+/* #giftimg{
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin
   width:780px;
   height:600px;
   float: right;
@@ -15,7 +25,7 @@
   left:430px;
 
    
-}
+} */
 
 .topbtn{
   -moz-appearance: none;
@@ -78,6 +88,7 @@
  height:80px;
  bottom:130px;
 }
+<<<<<<< HEAD
 
 .heading{
   height: 20px;
@@ -105,3 +116,5 @@
      /* justify-content: flex-start;  */
 /* } */
 
+=======
+>>>>>>> origin
