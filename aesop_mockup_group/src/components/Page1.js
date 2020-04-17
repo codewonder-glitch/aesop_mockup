@@ -5,6 +5,7 @@ import homePage from '../images/Aesop-Homepage-Banner.jpg';
 import deo from '../images/staple_products/Large-PNG-Aesop-Personal-Deodorant-50mL-large.png';
 import handBalm from '../images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png';
 import handWash from '../images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png';
+import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 function Page1() {
@@ -15,7 +16,7 @@ function Page1() {
             
               {/* <a href="#" alt="link to " onClick={() => setModalIsOpen(true)}> */}
               <button className="buttonModal" onClick={() => setModalIsOpen(true)}>
-              <h6>Complimentary standard shipping on all orders  +</h6>
+              <h5>Complimentary standard shipping on all orders  +</h5>
               </button>       
               <div>
                  {/* <Modal isOpen={true}> */}
@@ -32,6 +33,7 @@ function Page1() {
                      $35
                      <br/>
                      Order by 12PM ET for delivery on the next working days<hr/>
+                     <button onClick={()=> setModalIsOpen(false)}>Close</button>
                  </Modal> 
               </div >
             </div>
@@ -39,12 +41,22 @@ function Page1() {
 
             </div> */}
             <div>
+                <ul className="menuPosition">
+                    <li>Shop</li>
+                    <li>Read</li>
+                    <li>Stores</li>
+                    <li>Search</li>
+                    <li style={{float:"right"}}>Login</li>
+                </ul> 
+                 
+                <h5>Formulations for skin, hair, home and body</h5>
+                <h6>Create with sensory pleasure in mind</h6>
               <img className="imageBanner" src={homePage}  alt="Home Page" height="500px" width='100%'/>
             </div>        
            
             <div className="leftSideDiv">
                 <div>
-                    <h6>Aesop essentials</h6>
+                    <h5>Aesop essentials</h5>
                     <br/>
                    
                     <h2> A selection of staples</h2>
@@ -56,24 +68,26 @@ function Page1() {
                 </div>
                 <div className="rightSideDiv">
                 <div>
-                    <img src={handWash} alt="hand wash"  height="200px" /> 
+                    <img src={handWash} alt="hand wash"  height="400px" /> 
                     <h6>Resurrection Aromatique Hand Wash</h6>
                     <h6><em>Gentle cleansing for hard-working hands</em></h6>
                 </div>
 
                 <div>
-                    <img src={handBalm} alt="hand balm"  height="200px" />
+                    <img src={handBalm} alt="hand balm"  height="400px" />
                     <h6>Resurrection Aromatique Hand Wash</h6>
                     <h6><em>Richly hydrating, greaseless finish</em></h6>
                 </div>
                 <div>
-                    <img src={deo} alt="deodarant"  height="200px" />   
+                    <img src={deo} alt="deodarant"  height="400px" />   
                     <h6>Deodarant </h6>
                     <h6><em>Woody, herbaceous, earthy aromatic</em></h6>
                 </div>
-
+                
                 </div>
+               
             </div>
+            <hr color="lightgray"/>
             </React.Fragment>
         );
     }
