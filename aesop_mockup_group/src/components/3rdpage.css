@@ -1,8 +1,4 @@
-.App {
-    text-align: center;
-    /* overflow-x: hidden; */
-    /* position: absolute; */
-  }
+
   #gift3img{
   
     width:780px;
@@ -58,8 +54,8 @@
     color:white;
     background-color: black;
     position: absolute;
-   right:990px;
-   /* right:0px; */
+   
+ right:0px; 
    width:80px;
    height:80px;
    bottom:130px;

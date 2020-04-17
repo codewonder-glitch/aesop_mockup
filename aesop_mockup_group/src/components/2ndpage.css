@@ -14,6 +14,10 @@
   
      
   }
+  #hr2{
+    position: absolute;
+    bottom:-1620px;    
+  }
   
   .topbtn{
     -moz-appearance: none;
@@ -26,6 +30,10 @@
     height:40px;
     font-weight: bold;
   
+  }
+  .link{
+
+    /* display: none; */
   }
   
   
@@ -77,3 +85,19 @@
    bottom:130px;
   }
   
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }

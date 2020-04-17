@@ -16,11 +16,12 @@ export default function Thirdpage(){
         <div>
      
      
-        <div id="gift3div">
+     <div id="gift3div">
         <p>
+        
     An odyssey of gifts,for more generous and<br />
     inspired giving
-       <img src={gift} id="gift3img"/>
+    <img src={gift} id="gift3img"/>
         </p>
           <h6>Seasonal Gift Kits</h6>
           <h6>Aesop Favourites</h6>
