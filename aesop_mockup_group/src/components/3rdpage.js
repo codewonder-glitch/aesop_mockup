@@ -18,13 +18,17 @@ export default function Thirdpage(){
      
         <div id="gift3div">
         <p>
-        Five mythical Gift kifts
-       
-        <img src={gift} id="gift3img"/>
+    An odyssey of gifts,for more generous and<br />
+    inspired giving
+       <img src={gift} id="gift3img"/>
         </p>
-           <pre>crafted for gods,mortals, and muses alike,our new Gift kit</pre>
-           <pre>collection makes for inspired gift giving this festive season</pre>
-           <input type="button" className="topbtn3" value="Explore seasonal Gift kits ->"/>
+          <h6>Seasonal Gift Kits</h6>
+          <h6>Aesop Favourites</h6>
+          <h6>Small gestures</h6>
+          <h6>Generous offerings</h6>
+          <h6>Fragrant formulations</h6>
+          <h6>Treats for self</h6>
+          <h6>All Gifts</h6>
           </div>
    
    
@@ -32,36 +36,46 @@ export default function Thirdpage(){
            <div id="container3">
            
            <div id="desc3">
-           <h6>Fragrance</h6>
+           <h6>For hands and body</h6>
            <br/>
-            <pre>An Aromatic signature</pre>
-            <pre>our bold sophisticated fragrance-from parfum</pre>
-            <pre>and eau-de parfum to room spraya are</pre>
-            <pre>maliciously crafted using high quality ingredients</pre>
+            <pre>Daily Cleansing</pre>
+            <pre>Ensure impecable hygiene with our range of wild</pre>
+            <pre>yet efficacious formulations</pre>
+            <h6>see all body -></h6>
             </div>
           
            <div className="link3">
-           <Link to="/home"><img src={frag1} className="link3img"/></Link>
+           <Link to="/home"><img src={frag1} className="link3img"/>
+           <h6>Resurrection Aromatique Hand Wash</h6>
+            </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><Comp /></Route>
            </div>
    
            <div className="link3">
-           <Link to="/home"><img src={frag2} className="link3img"/></Link>
+           <Link to="/home"><img src={frag2} className="link3img"/>
+           <h6>Resurrection Aromatique Hand Wash</h6>
+            </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><comp /></Route>
            </div>
    
            <div className="link3">
-           <Link to="/home"><img src={frag3} className="link3img"/></Link>
+           <Link to="/home"><img src={frag3} className="link3img"/>
+           <h6>Resurrection Aromatique Hand Wash</h6>
+            </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><comp /></Route>
            </div>
    
            <div className="link3">
-           <Link to="/home"><img src={frag4} className="link3img"/></Link>
+           <Link to="/home"><img src={frag4} className="link3img"/>
+           <h6>Resurrection Aromatique Hand Wash</h6>
+            </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><comp /></Route>
            </div>
    
            <div className="link3">
-           <Link to="/home"><img src={frag5} className="link3img"/></Link>
+           <Link to="/home"><img src={frag5} className="link3img"/>
+           <h6>Resurrection Aromatique Hand Wash</h6>
+            </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><comp /></Route>
          
            </div>
