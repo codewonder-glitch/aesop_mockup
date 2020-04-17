@@ -33,7 +33,7 @@
   
   
     position: absolute;
-    bottom:20px;  
+    bottom:-920px;  
     left:50px;
   }
   .link{
@@ -53,7 +53,7 @@
     justify-content: space-around;
     display: -webkit-flex; 
     position:absolute;
-    bottom:-550px;
+    bottom:-1400px;
      max-width: 450px;
   }
   

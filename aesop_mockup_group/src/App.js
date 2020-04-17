@@ -2,29 +2,33 @@ import React,{Component} from 'react';
 import './App.css';
 
 import Page1 from './components/Page1';
+import Secondpage from './components/2ndpage'
 
 
-//import gift from "./images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png";
+import Fourthpage from './components/Fourthpage.js';
+import './App.css';
 
-class App extends Component{
-constructor(props){
-super(props)
 
-}
-  render()
-  {
+function App() {
   return (
     <div className="App">
+     <div>
+     <Page1 />
+     </div>
+
+     <div>
+     <Secondpage />
+     </div>
      
-     
-       
-    {/* <Secondpage /> */}
-     
+      <Fourthpage />
+    
+
+
       
 
     </div>
   );
-  }
+  
 }
 
 export default App;

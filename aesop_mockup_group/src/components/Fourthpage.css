@@ -1,0 +1,38 @@
+.body {
+    background-color: cornsilk;
+}
+.d1{
+
+    position:absolute;
+    bottom:-2620px;  
+}
+.i1 {
+    margin: 60px;
+    width: 1300px;
+    height: 900px
+    
+
+}
+
+.p1 {
+    margin-left: 70px;
+    top: 5px;
+    text-align: left;
+   font-size:xx-small;
+}
+.p2 {
+    margin-left: 70px;
+    margin-top: 2px;
+    font-size: small;
+    top: 5px;
+   
+    text-align: left;
+
+}
+.p3 {
+    top: 5px;
+    margin-left: 600px;
+    
+    font-size: xx-small;
+    text-align-last: center;
+}

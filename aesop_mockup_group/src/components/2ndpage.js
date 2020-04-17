@@ -15,9 +15,9 @@ export default function Secondpage(){
     return(
 
     
-        <div>
+        <React.Fragment>
      
-     
+     <div>
         <div id="giftdiv">
         <p>
         Five mythical Gift kifts
@@ -31,6 +31,7 @@ export default function Secondpage(){
    
    
          <Router>
+         
            <div id="container">
            
            <div id="desc">
@@ -72,9 +73,9 @@ export default function Secondpage(){
    
          </Router>
         
+       
          </div>
-   
-    
+   </React.Fragment>
          
        
      );
