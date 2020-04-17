@@ -22,7 +22,7 @@ export default function Secondpage(){
         <p>
         Five mythical Gift kifts
        
-        <img src={gift} id="giftimg"/>
+        <img src={gift} id="giftimg" alt="fragrance"/>
         </p>
            <pre>crafted for gods,mortals, and muses alike,our new Gift kit</pre>
            <pre>collection makes for inspired gift giving this festive season</pre>
@@ -34,37 +34,40 @@ export default function Secondpage(){
          
            <div id="container">
            
+
+          
            <div id="desc">
-<pre>Fragrance
-     An Aromatic signature</pre>
-<pre>our bold sophisticated fragrance-from parfum</pre>
-<pre>and eau-de parfum to room spraya are</pre>
-<pre>maliciously crafted using high quality ingredients</pre>
-    </div>
+           <h6>Fragrance</h6>
+           <br/>
+            <pre>An Aromatic signature</pre>
+            <pre>our bold sophisticated fragrance-from parfum</pre>
+            <pre>and eau-de parfum to room spraya are</pre>
+            <pre>maliciously crafted using high quality ingredients</pre>
+            </div>
           
            <div className="link">
-           <Link to="/home"><img src={frag1} className="linkimg"/></Link>
+           <Link to="/home"><img src={frag1} className="linkimg"alt="fragrance"/></Link>
            <Route path="/home"><Comp /></Route>
            </div>
    
            <div className="link">
-           <Link to="/home"><img src={frag2} className="linkimg"/></Link>
-           <Route path="/home"><comp /></Route>
+           <Link to="/home"><img src={frag2} className="linkimg" alt="fragrance"/></Link>
+           <Route path="/home"><Comp /></Route>
            </div>
    
            <div className="link">
-           <Link to="/home"><img src={frag3} className="linkimg"/></Link>
-           <Route path="/home"><comp /></Route>
+           <Link to="/home"><img src={frag3} className="linkimg" alt="fragrance"/></Link>
+           <Route path="/home"><Comp /></Route>
            </div>
    
            <div className="link">
-           <Link to="/home"><img src={frag4} className="linkimg"/></Link>
-           <Route path="/home"><comp /></Route>
+           <Link to="/home"><img src={frag4} className="linkimg" alt="fragrance"/></Link>
+           <Route path="/home"><Comp /></Route>
            </div>
    
            <div className="link">
-           <Link to="/home"><img src={frag5} className="linkimg"/></Link>
-           <Route path="/home"><comp /></Route>
+           <Link to="/home"><img src={frag5} className="linkimg" alt="fragrance"/></Link>
+           <Route path="/home"><Comp /></Route>
          
            </div>
            <input type="button" className="btnleft" value="<" />

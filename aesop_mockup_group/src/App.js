@@ -4,6 +4,7 @@ import './App.css';
 import Page1 from './components/Page1';
 import Secondpage from './components/2ndpage'
 
+import Thirdpage from './components/3rdpage'
 
 import Fourthpage from './components/Fourthpage.js';
 import './App.css';
@@ -18,7 +19,9 @@ function App() {
 
      <div>
      <Secondpage />
-     </div>
+    </div>
+
+    <Thirdpage/>
      
       <Fourthpage />
     
