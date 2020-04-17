@@ -41,10 +41,18 @@ h5{
    display: inline;
    padding: 10px 12px;;
  }
+
+ li a{
+   display: block;
+   color:white;
+   text-align:center;
+   padding: 10 px 12px;
+   text-decoration: none;
+ }
   .imageBanner{
      z-index: -1;
     
-     /* position: absolute; */
+     position: absolute;
   }
 /* .modal{
   height: 100px;

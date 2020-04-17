@@ -5,7 +5,7 @@ import homePage from '../images/Aesop-Homepage-Banner.jpg';
 import deo from '../images/staple_products/Large-PNG-Aesop-Personal-Deodorant-50mL-large.png';
 import handBalm from '../images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png';
 import handWash from '../images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png';
-import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
+// import {  BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 function Page1() {
@@ -41,17 +41,18 @@ function Page1() {
 
             </div> */}
             <div>
+            <img className="imageBanner" src={homePage}  alt="Home Page" height="500px" width='100%'/>
                 <ul className="menuPosition">
-                    <li>Shop</li>
-                    <li>Read</li>
-                    <li>Stores</li>
-                    <li>Search</li>
-                    <li style={{float:"right"}}>Login</li>
+                    <li> <a href="#shop">Shop </a> </li>
+                    <li><a href="#">Read</a></li>
+                    <li><a href="#">Stores</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li style={{float:"right"}}><a href="#">Login</a></li>
                 </ul> 
                  
                 <h5>Formulations for skin, hair, home and body</h5>
                 <h6>Create with sensory pleasure in mind</h6>
-              <img className="imageBanner" src={homePage}  alt="Home Page" height="500px" width='100%'/>
+             
             </div>        
            
             <div className="leftSideDiv">
