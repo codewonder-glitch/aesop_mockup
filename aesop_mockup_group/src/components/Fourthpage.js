@@ -8,10 +8,11 @@ function Fourthpage ()
 {
     return(
 
-        <div> 
+        <div className="d1"> 
              
                 <p className="p1"> Architecture and design </p>
                 <p className="p2">Spaces of distinction</p>
+                <p className="p3"> Aesop stores are informed by the history,fabric and context of their local environments,yet retain an aesthetic consistency.</p>
                 
             <img className="i1" src = {img4} alt='Bleecker'/>
         </div>
