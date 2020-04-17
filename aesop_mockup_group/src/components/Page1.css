@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+  }
+  
+  .heading{
+    height: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .leftSideDiv{
+    background-color: white;
+    display: flex;
+   
+    flex-direction: row;
+  
+    max-width:100%;}
+  
+    .rightSideDiv{
+      background-color: white;
+      display: flex;
+     
+      flex-direction: row;
+    
+      max-width:100%;}
+    /* align-items: center; */
+      /* flex-wrap: wrap; */
+       /* justify-content: flex-start;  */
+  /* } */
