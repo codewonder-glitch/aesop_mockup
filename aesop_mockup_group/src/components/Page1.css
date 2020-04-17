@@ -11,29 +11,65 @@
     height:30px;
     background-color: black;
     width: 100%;
+    text-align: center;
   }
   .buttonModal{
     height: 30px;
     background-color: black;
+    background:none;
+    border:none;
     color:white
+    
+    
     /* display: block; */
   }
+h5{
+  margin:10px;
+  border-bottom: 1px solid white;
+ 
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
   
+  #login{
+    margin-right: 600px;
+  }
+ li{
+   display: inline;
+   padding: 10px 12px;;
+ }
+  .imageBanner{
+     z-index: -1;
+    
+     /* position: absolute; */
+  }
+/* .modal{
+  height: 100px;
+  width: 100px;
+} */
+  .menuPosition{
+     
+  }
   .leftSideDiv{
     background-color: white;
     display: flex;
-   
     flex-direction: row;
-  
-    max-width:100%;}
+    margin-top: 50px;
+    margin-left: 50px;
+    width:100%;}
   
     .rightSideDiv{
       background-color: white;
       display: flex;
-     
       flex-direction: row;
-    
-      max-width:100%;}
+      margin-top: 40px;
+      margin-left: 150px;
+      /* justify-content: flex-end;
+      align-items: flex-end; */
+      width:100%;}
     /* align-items: center; */
       /* flex-wrap: wrap; */
        /* justify-content: flex-start;  */
