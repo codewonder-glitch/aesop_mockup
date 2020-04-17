@@ -5,6 +5,7 @@
 }
 #giftimg{
 
+<<<<<<< HEAD
   width:780px;
   height:600px;
   float: right;
@@ -76,3 +77,30 @@
  height:80px;
  bottom:130px;
 }
+=======
+.heading{
+  height: 20px;
+  background-color: black;
+  color: white;
+}
+
+.div2{
+  background-color: white;
+  display: flex;
+ 
+  flex-direction: row;
+
+  max-width:100%;}
+
+  .images2{
+    background-color: white;
+    display: flex;
+   
+    flex-direction: row;
+  
+    max-width:100%;}
+  /* align-items: center; */
+    /* flex-wrap: wrap; */
+     /* justify-content: flex-start;  */
+/* } */
+>>>>>>> 2f484e594a6e9c7c625b23fdfae3ef3e153aca93
