@@ -21,7 +21,7 @@ export default function Thirdpage(){
         
     An odyssey of gifts,for more generous and<br />
     inspired giving
-    <img src={gift} id="gift3img"/>
+    <img src={gift} id="gift3img" alt="fragrance"/>
         </p>
           <h6>Seasonal Gift Kits</h6>
           <h6>Aesop Favourites</h6>
@@ -46,35 +46,35 @@ export default function Thirdpage(){
             </div>
           
            <div className="link3">
-           <Link to="/home"><img src={frag1} className="link3img"/>
+           <Link to="/home"><img src={frag1} className="link3img" alt="fragrance"/>
            <h6>Resurrection Aromatique Hand Wash</h6>
             </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><Comp /></Route>
            </div>
    
            <div className="link3">
-           <Link to="/home"><img src={frag2} className="link3img"/>
+           <Link to="/home"><img src={frag2} className="link3img" alt="fragrance"/>
            <h6>Resurrection Aromatique Hand Wash</h6>
             </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><comp /></Route>
            </div>
    
            <div className="link3">
-           <Link to="/home"><img src={frag3} className="link3img"/>
+           <Link to="/home"><img src={frag3} className="link3img" alt="fragrance"/>
            <h6>Resurrection Aromatique Hand Wash</h6>
             </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><comp /></Route>
            </div>
    
            <div className="link3">
-           <Link to="/home"><img src={frag4} className="link3img"/>
+           <Link to="/home"><img src={frag4} className="link3img" alt="fragrance"/>
            <h6>Resurrection Aromatique Hand Wash</h6>
             </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><comp /></Route>
            </div>
    
            <div className="link3">
-           <Link to="/home"><img src={frag5} className="link3img"/>
+           <Link to="/home"><img src={frag5} className="link3img" alt="fragrance"/>
            <h6>Resurrection Aromatique Hand Wash</h6>
             </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><comp /></Route>

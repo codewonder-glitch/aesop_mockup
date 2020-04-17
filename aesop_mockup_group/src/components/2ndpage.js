@@ -82,7 +82,7 @@ render(){
             </div>
           
            <div className="link fade"  ref="myTextInput">
-           <Link to="/home"><img src={frag1} className="linkimg"alt="fragrance"/>
+           <Link to="/home"><img src={frag1} className="linkimg" alt="fragrance"/>
            <h6>Resurrection Aromatique Hand Wash</h6>
             </Link><pre>Gentle cleansing for hard-working hands</pre>
            <Route path="/home"><Comp /></Route>
