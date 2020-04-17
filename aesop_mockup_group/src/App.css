@@ -1,11 +1,12 @@
-.App {
-  text-align: center;
+/* <<<<<<< HEAD
+=======
+.App { */
+  /* text-align: center; */
   /* overflow-x: hidden; */
   /* position: absolute; */
-}
-#giftimg{
+/* } */
+/* #giftimg{
 
-<<<<<<< HEAD
   width:780px;
   height:600px;
   float: right;
@@ -14,7 +15,7 @@
   left:430px;
 
    
-}
+} */
 
 .topbtn{
   -moz-appearance: none;
@@ -37,10 +38,10 @@
   bottom:20px;  
   left:50px;
 }
-.link{
+/* .link{
 
   
-}
+} */
 .linkimg{
 
   width:450px;
@@ -77,30 +78,3 @@
  height:80px;
  bottom:130px;
 }
-=======
-.heading{
-  height: 20px;
-  background-color: black;
-  color: white;
-}
-
-.div2{
-  background-color: white;
-  display: flex;
- 
-  flex-direction: row;
-
-  max-width:100%;}
-
-  .images2{
-    background-color: white;
-    display: flex;
-   
-    flex-direction: row;
-  
-    max-width:100%;}
-  /* align-items: center; */
-    /* flex-wrap: wrap; */
-     /* justify-content: flex-start;  */
-/* } */
->>>>>>> 2f484e594a6e9c7c625b23fdfae3ef3e153aca93
