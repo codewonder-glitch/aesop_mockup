@@ -8,7 +8,7 @@
     color: white;
   }
   
-  .div2{
+  .leftSideDiv{
     background-color: white;
     display: flex;
    
@@ -16,7 +16,7 @@
   
     max-width:100%;}
   
-    .images2{
+    .rightSideDiv{
       background-color: white;
       display: flex;
      
