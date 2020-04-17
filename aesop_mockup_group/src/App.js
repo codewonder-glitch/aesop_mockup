@@ -4,7 +4,7 @@ import './App.css';
 import Page1 from './components/Page1';
 import Secondpage from './components/2ndpage'
 
-import React from 'react';
+
 import Fourthpage from './components/Fourthpage.js';
 import './App.css';
 
