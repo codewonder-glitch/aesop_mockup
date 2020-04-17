@@ -1,0 +1,72 @@
+
+  #gift3img{
+  
+    width:780px;
+    height:600px;
+    float: right;
+    position: relative;
+  
+    left:430px;
+  
+     
+  }
+  
+  .topbtn3{
+    -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+    position: absolute;
+    bottom:450px;  
+    left:5px;
+    width:20em;
+    height:40px;
+    font-weight: bold;
+  
+  }
+  
+  
+  #gift3div{
+  
+  
+    position: absolute;
+    top:2420px; 
+    left:50px;
+  }
+  
+  .link3img{
+  
+    width:450px;
+    height:300px;
+  }
+  
+  #container3{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: -webkit-flex; 
+    position:absolute;
+    top:3200px;
+     max-width: 450px;
+  }
+  
+  .btnright3{
+    color:white;
+    background-color: black;
+    position: absolute;
+   
+ right:0px; 
+   width:80px;
+   height:80px;
+   bottom:130px;
+  }
+  .btnleft3{
+    color:white;
+    background-color: black;
+    position: absolute;
+    left:0px;
+    width:80px;
+   height:80px;
+   bottom:130px;
+  }
+  

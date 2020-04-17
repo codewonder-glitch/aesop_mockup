@@ -1,8 +1,13 @@
 .body {
     background-color: cornsilk;
 }
+.d1{
+
+    position:absolute;
+    top:3720px;  
+}
 .i1 {
-    margin: 30px;
+    margin: 60px;
     width: 1300px;
     height: 900px
     
