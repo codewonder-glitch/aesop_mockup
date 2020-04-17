@@ -9,9 +9,12 @@ import handWash from '../images/staple_products/Aesop-Hand-Resurrection-Aromatiq
 
 
 function Page1() {
+
+    //modal to display. Reference:https://youtu.be/10FNqoPpNbE
     const [modalIsOPen, setModalIsOpen] = useState(false);
         return (
             <React.Fragment>
+               
             <div className="firstRow">
             
               {/* <a href="#" alt="link to " onClick={() => setModalIsOpen(true)}> */}
@@ -40,21 +43,28 @@ function Page1() {
             {/* <div  className="background">
 
             </div> */}
-            <div>
-            <img className="imageBanner" src={homePage}  alt="Home Page" height="500px" width='100%'/>
-                <ul className="menuPosition">
-                    <li> <a href="#shop">Shop </a> </li>
-                    <li><a href="#">Read</a></li>
-                    <li><a href="#">Stores</a></li>
-                    <li><a href="#">Search</a></li>
-                    <li style={{float:"right"}}><a href="#">Login</a></li>
+
+            {/* container which holds image and menu options */}
+            <div className="container">
+            <ul className="menuPosition">
+                    <li>Shop</li>
+                    <li>Read</li>
+                    <li>Stores</li>
+                    <li>Search</li>
+                    <li style={{float:"right"}}>Login</li>
                 </ul> 
-                 
-                <h5>Formulations for skin, hair, home and body</h5>
-                <h6>Create with sensory pleasure in mind</h6>
+                <h3 id="aesop">Aesop</h3> 
+                <p id="formualationsText">
+                    <h3>Formulations for skin, hair, home and body</h3>
+                <em>Create with sensory pleasure in mind</em></p>
+    
+             {/* used z-index to make image as background */}
+            <img className="imageBanner" src={homePage}  alt="Home Page" height="500px" width='100%'/>
+               
              
             </div>        
            
+            {/* created as flex */}
             <div className="leftSideDiv">
                 <div>
                     <h5>Aesop essentials</h5>
@@ -67,6 +77,7 @@ function Page1() {
                     agao to personal care necessites
                 </p>
                 </div>
+                 {/* created as flex */}
                 <div className="rightSideDiv">
                 <div>
                     <img src={handWash} alt="hand wash"  height="400px" /> 
