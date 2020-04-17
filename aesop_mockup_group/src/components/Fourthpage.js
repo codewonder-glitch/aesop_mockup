@@ -11,7 +11,7 @@ function Fourthpage ()
         <div> 
              
                 <p className="p1"> Architecture and design </p>
-                <h4>Spaces of distinction</h4>
+                <p className="p2">Spaces of distinction</p>
                 
             <img className="i1" src = {img4} alt='Bleecker'/>
         </div>
