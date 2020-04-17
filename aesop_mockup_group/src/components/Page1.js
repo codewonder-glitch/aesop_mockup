@@ -33,10 +33,13 @@ function Page1() {
                      <br/>
                      Order by 12PM ET for delivery on the next working days<hr/>
                  </Modal> 
-              </div>
+              </div >
             </div>
+            {/* <div  className="background">
+
+            </div> */}
             <div>
-              <img className="imageBanner" src={homePage}  alt="Home Page" height="500px"/>
+              <img className="imageBanner" src={homePage}  alt="Home Page" height="500px" width='100%'/>
             </div>        
            
             <div className="leftSideDiv">
