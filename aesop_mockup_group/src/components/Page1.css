@@ -1,11 +1,12 @@
 .App {
     text-align: center;
+    background-image: url("../images/Aesop-Homepage-Banner.jpg");
   }
   
   .buttonModal{
     height: 20px;
     background-color: black;
-    color: white;
+    color: whit
   }
   
   .leftSideDiv{
