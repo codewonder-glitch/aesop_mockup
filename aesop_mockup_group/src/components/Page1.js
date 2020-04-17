@@ -41,8 +41,7 @@ function Page1() {
 
             </div> */}
             <div>
-            <img className="imageBanner" src={homePage}  alt="Home Page" height="500px" width='100%'/>
-                <ul className="menuPosition">
+            <ul className="menuPosition">
                     <li> <a href="#shop">Shop </a> </li>
                     <li><a href="#">Read</a></li>
                     <li><a href="#">Stores</a></li>
@@ -52,6 +51,8 @@ function Page1() {
                  
                 <h5>Formulations for skin, hair, home and body</h5>
                 <h6>Create with sensory pleasure in mind</h6>
+            <img className="imageBanner" src={homePage}  alt="Home Page" height="500px" width='100%'/>
+               
              
             </div>        
            
