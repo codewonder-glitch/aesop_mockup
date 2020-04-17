@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import './App.css';
 
 import Page1 from './components/Page1';
-
+import Secondpage from './components/2ndpage'
 
 //import gift from "./images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png";
 
@@ -15,10 +15,13 @@ super(props)
   {
   return (
     <div className="App">
-     
-     
-       
-    {/* <Secondpage /> */}
+     <div>
+     <Page1 />
+     </div>
+
+     <div>
+     <Secondpage />
+     </div>
      
       
 
