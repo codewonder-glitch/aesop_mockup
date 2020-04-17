@@ -1,12 +1,22 @@
 .App {
     text-align: center;
-    background-image: url("../images/Aesop-Homepage-Banner.jpg");
+    
   }
-  
-  .buttonModal{
-    height: 20px;
+  /* .background{
+    background-image: url("../images/Aesop-Homepage-Banner.jpg");
+    height: 1000px;
+
+  } */
+  .firstRow{
+    height:30px;
     background-color: black;
-    color: whit
+    width: 100%;
+  }
+  .buttonModal{
+    height: 30px;
+    background-color: black;
+    color:white
+    /* display: block; */
   }
   
   .leftSideDiv{
