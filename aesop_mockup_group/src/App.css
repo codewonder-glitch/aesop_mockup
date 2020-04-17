@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 .App {
   text-align: center;
   /* overflow-x: hidden; */
@@ -7,7 +6,7 @@
 }
 #giftimg{
 
-<<<<<<< HEAD
+
   width:780px;
   height:600px;
   float: right;
@@ -39,10 +38,10 @@
   bottom:20px;  
   left:50px;
 }
-.link{
+/* .link{
 
   
-}
+} */
 .linkimg{
 
   width:450px;
@@ -79,7 +78,7 @@
  height:80px;
  bottom:130px;
 }
-=======
+
 .heading{
   height: 20px;
   background-color: black;
@@ -105,5 +104,4 @@
     /* flex-wrap: wrap; */
      /* justify-content: flex-start;  */
 /* } */
->>>>>>> 2f484e594a6e9c7c625b23fdfae3ef3e153aca93
->>>>>>> c25dfd91243e943fd01d48e9f89ea92a49e5f2ce
+
